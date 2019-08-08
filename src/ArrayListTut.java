@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class ArrayListTut {
 
 //    Difference b/t abstract class and interface
@@ -29,6 +31,16 @@ public class ArrayListTut {
         numbers = m.delete(numbers,3);
         System.out.println("Deleting elements");
         m.printArray(numbers);
+
+
+
+        // =================================================
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        arrayList.add(0);
+        arrayList.add(1);
+        arrayList.add(2);
+
+        arrayList.remove(1);
     }
 
 //    [0,1,2,3,4,5,6]
