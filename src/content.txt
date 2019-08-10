@@ -1,0 +1,35 @@
+==============
+1. ArrayList (unorder)
+2. LinkedList (order)
+
+
+
+
+SET (unqiue list)
+===========
+4. Hash Set (unquie values, unorder) i/o: 1,4,8,5    o/p: 4,5,1,8
+5. Linked HashSet (unquie values, order)
+6. TreeSet (unquie,order,sort) i/o: 1,4,8,5    o/p: 1,4,5,8
+
+Map (Keyvalue Pairs)
+========
+7. Hash Map (unorder)
+8. Linked HashMap(order)
+9. Tree Map(order,sort)
+10. Hashtable(synchronized)
+
+
+--------------------------------------------------------------------------
+ArrayList
+-> list.get(5); fast
+-> list.add(1); fast
+-> list.update: slow
+
+linkedList:
+-> list.get(1) slow
+-> list.update : fast
+-> list.add :  fast
+
+
+HashMap:
+
