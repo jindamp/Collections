@@ -47,4 +47,9 @@ public class HashMapTut {
             System.out.println("Key = " + key +", Value = " + value);
         });
     }
+
+    public void err(){
+       SetTut st = new SetTut();
+       st.error();
+    }
 }

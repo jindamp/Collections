@@ -37,4 +37,8 @@ public class SetTut {
             System.out.println(value.next());
         }
     }
+
+    public void error(){
+        int ot = 2/0;
+    }
 }
